@@ -8,4 +8,4 @@ deploy:
   app: mken-sandbox
   on:
     repo: sarastier/mken-sandbox
-    branch: travis
+    branch: master
