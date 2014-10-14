@@ -1,3 +1,11 @@
 language: ruby
 rvm:
- - 2.1.2
+- 2.1.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: CtRrvnf8uhyWvjl8MlKfXGrvFy7jPzhtTSbRclPq/DLDV6SV5KrmXOKF4SJ3S/T+nX8nK2hUFIfhu+H3J7a895ejFlWT2uYmMnQT/9aBpqw1zD0Ok7beKk2aJA/CogGCQTS72MivuPismCjyI7mzsFn0OWqfWtKvu1LRcsnROLo=
+  app: mken-sandbox
+  on:
+    repo: sarastier/mken-sandbox
+    branch: travis
