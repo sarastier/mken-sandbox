@@ -8,4 +8,4 @@ deploy:
   app:
     master: mken-sandbox
     staging: mken-sandbox-staging
-    production: mken-sandobx-production
+    production: mken-sandbox-production
